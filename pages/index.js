@@ -1,8 +1,9 @@
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
-      car
+      <Link href={"/cars"}>Cars</Link>
     </div>
   )
 }
